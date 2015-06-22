@@ -1,0 +1,17 @@
+<suite name="Suite">
+
+    <test name="ToolsQA">
+
+        <parameter name="sWebSite" value="http://www.amazon.com"/>
+
+        <parameter name="sKeyword" value="Logitech Mouse"/>
+
+        <classes>
+
+            <class name="com.spiritson.TestAmazonCart" />
+
+        </classes>
+
+    </test>
+
+</suite>
